@@ -1,33 +1,20 @@
-# Etapa 1: Build
-FROM eclipse-temurin:21-jdk AS builder
+# Etapa de construcción
+FROM maven:3.9.6-eclipse-temurin-21 AS builder
 
 WORKDIR /app
 
-# Copia solo lo necesario para cachear dependencias primero
-COPY backend/pom.xml backend/.mvn/ backend/mvnw ./
-RUN ./mvnw dependency:go-offline
+# Copiar dependencias y compilar
+COPY backend/pom.xml .
+COPY backend/src ./src
 
-# Copia solo lo necesario para cachear dependencias primero
-COPY backend/pom.xml backend/.mvn/ backend/mvnw ./
+RUN mvn clean package -DskipTests
 
-# 🔧 Asegura que el wrapper tenga permisos de ejecución
-RUN chmod +x mvnw
-
-# Descarga dependencias
-RUN ./mvnw dependency:go-offline
-
-# Compila la aplicación (sin tests para rapidez)
-RUN ./mvnw clean package -DskipTests
-
-# Etapa 2: Runtime
+# Etapa de ejecución
 FROM eclipse-temurin:21-jdk
 
 WORKDIR /app
 
-# Copiamos solo el .jar generado
 COPY --from=builder /app/target/*.jar app.jar
 
 EXPOSE 8080
-
-# Ejecuta la aplicación
 ENTRYPOINT ["java", "-jar", "app.jar"]
