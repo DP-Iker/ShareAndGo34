@@ -7,8 +7,14 @@ WORKDIR /app
 COPY backend/pom.xml backend/.mvn/ backend/mvnw ./
 RUN ./mvnw dependency:go-offline
 
-# Copia el resto del código fuente
-COPY backend .
+# Copia solo lo necesario para cachear dependencias primero
+COPY backend/pom.xml backend/.mvn/ backend/mvnw ./
+
+# 🔧 Asegura que el wrapper tenga permisos de ejecución
+RUN chmod +x mvnw
+
+# Descarga dependencias
+RUN ./mvnw dependency:go-offline
 
 # Compila la aplicación (sin tests para rapidez)
 RUN ./mvnw clean package -DskipTests

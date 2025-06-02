@@ -15,7 +15,5 @@ services:
     name: react-frontend
     env: docker
     dockerfilePath: frontend/Dockerfile
-    buildCommand: ""
-    startCommand: ""
     plan: free
     autoDeploy: true

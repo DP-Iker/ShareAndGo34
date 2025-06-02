@@ -1,25 +1,18 @@
-# Etapa 1: Build de la app React
+# Etapa 1: Build de la app Vite
 FROM node:20-alpine AS builder
 
-# Crear y moverse al directorio de trabajo
 WORKDIR /app
-
-# Copiar dependencias y luego código fuente
 COPY frontend/package*.json ./
 RUN npm install
-
 COPY frontend ./
 RUN npm run build
 
-# Etapa 2: Servir con Nginx
-FROM nginx:stable-alpine
+# Etapa 2: Servir con 'serve'
+FROM node:20-alpine
 
-# Copiar los archivos generados de React al contenido web de nginx
-COPY --from=builder /app/build /usr/share/nginx/html
+WORKDIR /app
+RUN npm install -g serve
+COPY --from=builder /app/dist ./dist
 
-# Configuración personalizada de Nginx (ver abajo)
-COPY frontend/nginx.conf /etc/nginx/conf.d/default.conf
-
-EXPOSE 80
-
-CMD ["nginx", "-g", "daemon off;"]
+EXPOSE 3000
+CMD ["serve", "-s", "dist", "-l", "3000"]
