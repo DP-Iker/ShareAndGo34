@@ -2,7 +2,7 @@ services:
   - type: web
     name: spring-backend
     env: docker
-    dockerfilePath: backend/Dockerfile
+    dockerfilePath: Backend/Dockerfile
     buildCommand: ""
     startCommand: ""
     plan: free
@@ -14,7 +14,7 @@ services:
   - type: web
     name: react-frontend
     env: docker
-    dockerfilePath: frontend/Dockerfile
+    dockerfilePath: Frontend/Dockerfile
     buildCommand: ""
     startCommand: ""
     plan: free
