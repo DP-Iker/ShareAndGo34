@@ -17,8 +17,15 @@ public class JwtAuthenticationEntryPoint implements AuthenticationEntryPoint {
                          HttpServletResponse response,
                          AuthenticationException authException) throws IOException {
         response.setContentType("application/json");
+        response.setCharacterEncoding("UTF-8");
         response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
-        response.getWriter().write("{\"error\": \"No autorizado. Token invalido o ausente.\"}");
+
+        String errorJson = String.format(
+            "{\"error\": \"No autorizado. %s\"}", authException.getMessage()
+        );
+
+        response.getWriter().write(errorJson);
     }
 }
+
 
