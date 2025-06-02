@@ -53,9 +53,21 @@ public class SecurityConfig {
 CorsConfigurationSource corsConfigurationSource() {
     CorsConfiguration config = new CorsConfiguration();
 
-    config.addAllowedOriginPattern("*");
+    // Acepta frontend local y Railway
+    config.addAllowedOrigin("http://localhost:3000"); // o "*", si es necesario
+    config.addAllowedOrigin("https://spring-backend-production-25ef.up.railway.app");
+
+    // Métodos permitidos
     config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
-    config.setAllowedHeaders(Arrays.asList("Authorization", "Content-Type", "Access-Control-Allow-Origin"));
+
+    // Headers permitidos
+    config.setAllowedHeaders(Arrays.asList(
+        "Authorization", "Content-Type", "Accept", "Origin", "X-Requested-With"
+    ));
+
+    // Exponer headers útiles
+    config.setExposedHeaders(Arrays.asList("Authorization"));
+
     config.setAllowCredentials(true);
 
     UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
