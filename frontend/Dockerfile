@@ -1,25 +1,31 @@
-# Etapa 1: Build de Vite
+# Etapa 1: Build
 FROM node:20 AS builder
+
 WORKDIR /app
 
-# Copia e instala dependencias
+# Copia solo los archivos de dependencias primero (para aprovechar cache)
 COPY frontend/package*.json ./
 RUN npm install --legacy-peer-deps
 
-# Copia el resto del código y construye
-COPY frontend ./
+# Copia el resto del proyecto
+COPY frontend/ ./
+
+# Compila el proyecto
 RUN npm run build
 
-# Etapa 2: Servir app compilada
-FROM node:20-alpine
+# Etapa 2: Servir con 'serve'
+FROM node:20 AS runner
+
 WORKDIR /app
 
 # Instala un servidor estático simple
 RUN npm install -g serve
 
-# Copia archivos construidos
+# Copia los archivos estáticos compilados desde la etapa anterior
 COPY --from=builder /app/dist ./dist
 
-# Expone puerto y arranca
+# Expone el puerto que 'serve' usará
 EXPOSE 3000
-CMD ["serve", "dist"]
+
+# Comando para arrancar el servidor
+CMD ["serve", "-s", "dist", "-l", "3000"]
