@@ -1,0 +1,249 @@
+{
+  "home": {
+    "whyUseTitle": "Per què utilitzar Share&Go 34?",
+    "whyUseDescription": "La nostra plataforma de car sharing et connecta amb els millors vehicles disponibles a la teva ciutat de manera ràpida i sostenible.",
+    "whyUseBenefits": {
+      "eco": "Accedeix a cotxes elèctrics i ecològics",
+      "map": "Reserva immediata des del mapa",
+      "filters": "Filtres intel·ligents per trobar el cotxe ideal",
+      "fast": "Sense paperassa ni esperes"
+    },
+    "newsTitle": "Notícies sobre Car Sharing",
+    "mapButton": "Veure al mapa",
+    "mapImageAlt": "Ubicació al mapa",
+    "promoImageAlt": "Vehicle promocional"
+  },
+  "navbar": {
+    "catalog": "Catàleg",
+    "map": "Mapa",
+    "login": "Iniciar sessió"
+  },
+  "search": {
+    "title": "Troba el teu proper cotxe",
+    "useCurrentLocation": "Utilitza la meva ubicació",
+    "types": {
+      "turismos": "Turismes",
+      "suv": "SUV",
+      "monovolumen": "Monovolum",
+      "microcoche": "Microcotxe"
+    },
+    "placeholder": "Cercar ubicació...",
+    "button": "Cercar",
+    "errors": {
+      "geolocationNotSupported": "La geolocalització no és compatible amb el teu navegador.",
+      "locationPermissionDenied": "Permís de geolocalització denegat. Activa la ubicació per utilitzar aquesta funció."
+    }
+  },
+  "legend": {
+    "title": "Llegenda del mapa",
+    "vehicle": "Vehicle disponible",
+    "parking": "Zona d'aparcament disponible",
+    "note": "Fes clic als icones del mapa per a més detalls."
+  },
+  "map": {
+    "detectingLocation": "Detectant ubicació...",
+    "youAreHere": "Estàs a:",
+    "showParkings": "Mostrar zones d'aparcament",
+    "legendVehicle": "Vehicle disponible",
+    "legendParking": "Zona d'aparcament disponible",
+    "legendNote": "Fes clic als icones del mapa per a més detalls.",
+    "vehicleState": "Estat",
+    "vehicleDetails": "Més detalls",
+    "parkingZone": "Zona d'aparcament",
+    "seeNearbyVehicles": "Veure vehicles propers",
+    "exampleAddress": "Adreça d'exemple",
+    "lastRevision": "Última revisió",
+    "status": "Estat",
+    "moreDetails": "Més detalls",
+    "sampleAddress": "Adreça d'exemple",
+    "viewNearby": "Veure vehicles propers"
+  },
+  "catalog": {
+    "categories": {
+      "title": "Categories | Tipus de Cotxe",
+      "turismo": {
+        "label": "Turisme",
+        "desc": "Vehicles còmodes i eficients ideals per a carretera i ciutat."
+      },
+      "suv": {
+        "label": "SUV",
+        "desc": "Potència i espai, perfectes per a aventures i terrenys variats."
+      },
+      "monovolumen": {
+        "label": "Monovolum",
+        "desc": "Gran capacitat interior per a viatges en família o amb molt equipatge."
+      },
+      "biplaza": {
+        "label": "Microcotxe",
+        "desc": "Compactes, àgils i perfectes per al trànsit urbà."
+      }
+    },
+    "filters": {
+      "brand": "Marca",
+      "model": "Model",
+      "type": "Tipus",
+      "status": "Estat",
+      "location": "Localitat",
+      "accessibility": "Accessibilitat",
+      "yes": "Sí",
+      "no": "No",
+      "search": "Cercar"
+    }
+  },
+  "pagination": {
+    "show": "Mostrar",
+    "previous": "Anterior",
+    "next": "Següent",
+    "page": "Pàgina",
+    "of": "de"
+  },
+  "login": {
+    "cerrarModal": "Tancar modal",
+    "titulo": "Iniciar Sessió",
+    "error": "L'usuari o la contrasenya no són correctes",
+    "placeholderUsuario": "Usuari",
+    "placeholderContrasenya": "Contrasenya",
+    "noCuenta": "No tens compte?",
+    "registrate": "Registra't aquí",
+    "botonEntrar": "Entrar",
+    "camposObligatorios": "Si us plau, completa tots els camps.",
+    "datosInvalidos": "Nom d’usuari o contrasenya no vàlids.",
+    "errorGenerico": "S’ha produït un error inesperat. Torna-ho a provar."
+  },
+  "registro": {
+    "titulo": "Registre d'Usuari",
+    "placeholderNombre": "Nom",
+    "placeholderCorreo": "Correu Electrònic",
+    "placeholderPass": "Contrasenya",
+    "boton": "Crear Compte",
+    "todosCampos": "Si us plau, omple tots els camps.",
+    "nombreValido": "un nom vàlid",
+    "correoValido": "un correu vàlid",
+    "passValida": "una contrasenya vàlida",
+    "introduce": "Introdueix",
+    "usuarioExiste": "L'usuari ja existeix o hi ha hagut un error.",
+    "errorGeneral": "Error en registrar l'usuari.",
+    "validacionPass": "La contrasenya ha de tenir almenys 8 caràcters, incloent una majúscula, una minúscula, un número i un símbol."
+  },
+  "card": {
+    "sinImagen": "Sense imatge",
+    "ciudad": "Ciutat",
+    "autonomia": "Autonomia"
+  },
+  "carDetail": {
+    "sinImagen": "Sense imatge disponible",
+    "kilometraje": "Quilometratge",
+    "caracteristiques": "Característiques",
+    "botonReservar": "Reservar vehicle",
+    "reseñasDestacadas": "Ressenyes destacades",
+    "verTodas": "Veure totes les ressenyes",
+    "ocultarTodas": "Amagar totes les ressenyes",
+    "tituloTodasReseñas": "Totes les ressenyes d'usuaris",
+    "confirmarReserva": "Confirmar reserva",
+    "mensajeReserva": "Vols procedir amb el pagament per reservar el {{marca}} {{modelo}}?",
+    "cancelar": "Cancel·lar",
+    "pagarAhora": "Pagar ara",
+    "alertaConfirmacion": "Reserva confirmada 🚗✅",
+    "reseña1": "Cotxe molt bo, net i còmode. El tornaria a fer servir.",
+    "reseña2": "Perfecte per moure's per la ciutat, autonomia excel·lent.",
+    "reseña3": "Còmode, eficient i net. Tot perfecte!",
+    "reseña4": "Em va agradar molt, tot i que el GPS era una mica lent.",
+    "reseña5": "Experiència excel·lent, molt fàcil de reservar i fer servir.",
+    "reseña6": "Tot bé, però el cotxe tenia poca bateria a l'inici.",
+    "reseña7": "Còmode per trajectes curts. El tornaré a fer servir.",
+    "reseña8": "Molt recomanable, impecable i eficient.",
+    "reseña9": "Bona experiència, però l'aire condicionat no funcionava bé."
+  },
+  "perfil": {
+    "titulo": "Editar Perfil",
+    "cambiarFoto": "Canviar foto",
+    "nombre": "Nom",
+    "apellidos": "Cognoms",
+    "correo": "Correu electrònic",
+    "telefono": "Telèfon",
+    "placeholderNombre": "Nom",
+    "placeholderApellidos": "Cognoms",
+    "placeholderCorreo": "Correu electrònic",
+    "placeholderTelefono": "Telèfon",
+    "botonGuardar": "Desar canvis",
+    "errorNombre": "Nom no vàlid",
+    "errorCorreo": "Correu no vàlid",
+    "errorFecha": "Data de naixement no vàlida",
+    "errorDNI": "DNI no vàlid"
+  },
+  "userPanel": {
+    "titulo": "Panell d'Usuari",
+    "misReservas": "Les Meves Reserves",
+    "cambiarPass": "Canviar Contrasenya",
+    "verificacion": "Verificació d'Usuari",
+    "historial": "Historial de Viatges",
+    "cerrarSesion": "Tancar Sessió",
+    "email": "Correu",
+    "nacimiento": "Naixement",
+    "dni": "DNI"
+  },
+  "volver": {
+    "boton": "Tornar"
+  },
+  "popup": {
+    "configuracion": "Configuració",
+    "cerrarSesion": "Tancar sessió"
+  },
+  "footer": {
+    "cliente": "Atenció al client",
+    "devoluciones": "Devolucions i garantia",
+    "pagos": "Pagaments",
+    "condiciones": "Condicions del servei",
+    "privacidad": "Política de privacitat",
+    "info": "Informació corporativa",
+    "sobreNosotros": "Sobre nosaltres",
+    "marcas": "Marques",
+    "afiliados": "Afiliats",
+    "inversores": "Inversors",
+    "recursos": "Recursos",
+    "blog": "Blog",
+    "faqs": "Preguntes freqüents",
+    "soporte": "Suport tècnic",
+    "foro": "Fòrum",
+    "contactoDirecto": "Contacte directe",
+    "contactar": "Contactar",
+    "siguiente": "Següent",
+    "anterior": "Enrere",
+    "paso1": "Pas 1",
+    "deseasContacto": "Vols que et contactem?",
+    "placeholderEmail": "La teva adreça de correu",
+    "gracias": "Gràcies pel teu interès!",
+    "enviado": "La sol·licitud s'ha enviat correctament"
+  },
+  "cookies": {
+    "titulo": "Política de Galetes",
+    "intro": "Aquest lloc web utilitza galetes pròpies i de tercers per millorar la teva experiència de navegació, recopilar informació estadística sobre l'ús del lloc i personalitzar els continguts.",
+    "queSon": "Què són les galetes?",
+    "queSonTexto": "Les galetes són petits arxius de text que s'emmagatzemen al teu dispositiu quan visites un lloc web. La seva funció principal és reconèixer l'usuari i millorar la usabilitat del lloc.",
+    "tipos": "Tipus de galetes utilitzades",
+    "tipoTecnicas": "Galetes tècniques: Necessàries per al funcionament del lloc web.",
+    "tipoAnalisis": "Galetes d'anàlisi: Ens permeten conèixer com interactuen els usuaris amb el lloc web.",
+    "tipoPersonalizacion": "Galetes de personalització: Adapten el contingut a les teves preferències.",
+    "comoDesactivar": "Com puc desactivar-les?",
+    "comoDesactivarTexto": "Pots configurar el teu navegador per acceptar o rebutjar totes les galetes per defecte o per rebre un avís a la pantalla cada vegada que es rebi una galeta. Consulta l'ajuda del teu navegador per saber com fer-ho.",
+    "consentimiento": "Consentiment",
+    "consentimientoTexto": "En continuar navegant per aquest lloc web, acceptes l'ús de galetes d'acord amb aquesta política. Si no estàs d'acord, pots desactivar-les seguint les instruccions anteriors.",
+    "ultimaActualizacion": "Darrera actualització: maig 2025"
+  },
+  "pass": {
+    "titulo": "Canviar contrasenya",
+    "instruccionEmail": "Introdueix el teu correu electrònic. T'enviarem un enllaç per canviar la teva contrasenya.",
+    "correoPlaceholder": "El teu correu",
+    "enviarCodigo": "Enviar codi",
+    "procesando": "Processant... aquest procés pot trigar uns minuts.",
+    "instruccionesNueva": "Introdueix la teva nova contrasenya.",
+    "nuevaPlaceholder": "Nova contrasenya",
+    "confirmarPlaceholder": "Confirmar contrasenya",
+    "cambiarBoton": "Canviar contrasenya",
+    "toast": {
+      "emailEnviado": "Correu enviat amb èxit.\nComprova la teva bústia",
+      "errorCoincidencia": "Les contrasenyes no coincideixen.",
+      "cambioOk": "Contrasenya actualitzada correctament."
+    }
+  }
+}

@@ -1,0 +1,249 @@
+{
+    "home": {
+        "whyUseTitle": "Why use Share&Go 34?",
+        "whyUseDescription": "Our car sharing platform connects you with the best available vehicles in your city quickly and sustainably.",
+        "whyUseBenefits": {
+            "eco": "Access electric and eco-friendly cars",
+            "map": "Instant booking from the map",
+            "filters": "Smart filters to find the perfect car",
+            "fast": "No paperwork or waiting"
+        },
+        "newsTitle": "Car Sharing News",
+        "mapButton": "View on map",
+        "mapImageAlt": "Map location",
+        "promoImageAlt": "Promotional vehicle"
+    },
+    "navbar": {
+        "catalog": "Catalog",
+        "map": "Map",
+        "login": "Login"
+    },
+    "search": {
+        "title": "Find your next car",
+        "useCurrentLocation": "Use my location",
+        "types": {
+            "turismos": "Sedan",
+            "suv": "SUV",
+            "monovolumen": "Minivan",
+            "microcoche": "Microcar"
+        },
+        "placeholder": "Search location...",
+        "button": "Search",
+        "errors": {
+            "geolocationNotSupported": "Geolocation is not supported by your browser.",
+            "locationPermissionDenied": "Location permission denied. Enable location to use this feature."
+        }
+    },
+    "legend": {
+        "title": "Map Legend",
+        "vehicle": "Available vehicle",
+        "parking": "Available parking area",
+        "note": "Click on the map icons for more details."
+    },
+    "map": {
+        "detectingLocation": "Detecting location...",
+        "youAreHere": "You are in:",
+        "showParkings": "Show parking areas",
+        "legendVehicle": "Available vehicle",
+        "legendParking": "Available parking area",
+        "legendNote": "Click on the map icons for more details.",
+        "vehicleState": "State",
+        "vehicleDetails": "More details",
+        "parkingZone": "Parking Zone",
+        "seeNearbyVehicles": "See nearby vehicles",
+        "exampleAddress": "Example address",
+        "lastRevision": "Last revision",
+        "status": "Status",
+        "moreDetails": "More details",
+        "sampleAddress": "Sample address",
+        "viewNearby": "View nearby vehicles"
+    },
+    "catalog": {
+        "categories": {
+            "title": "Categories | Car Type",
+            "turismo": {
+                "label": "Sedan",
+                "desc": "Comfortable and efficient vehicles ideal for city and road driving."
+            },
+            "suv": {
+                "label": "SUV",
+                "desc": "Power and space, perfect for adventures and varied terrain."
+            },
+            "monovolumen": {
+                "label": "Minivan",
+                "desc": "Large interior capacity for family trips or lots of luggage."
+            },
+            "biplaza": {
+                "label": "Two-seater",
+                "desc": "Compact, agile and perfect for urban traffic."
+            }
+        },
+        "filters": {
+            "brand": "Brand",
+            "model": "Model",
+            "type": "Type",
+            "status": "Status",
+            "location": "Location",
+            "accessibility": "Accessibility",
+            "yes": "Yes",
+            "no": "No",
+            "search": "Search"
+        }
+    },
+    "pagination": {
+        "show": "Show",
+        "previous": "Previous",
+        "next": "Next",
+        "page": "Page",
+        "of": "of"
+    },
+    "login": {
+        "cerrarModal": "Close modal",
+        "titulo": "Log In",
+        "error": "Incorrect username or password",
+        "placeholderUsuario": "Username",
+        "placeholderContrasenya": "Password",
+        "noCuenta": "Don't have an account?",
+        "registrate": "Register here",
+        "botonEntrar": "Log In",
+        "camposObligatorios": "Please fill in all fields.",
+        "datosInvalidos": "Invalid username or password.",
+        "errorGenerico": "An unexpected error occurred. Please try again."
+    },
+    "registro": {
+        "titulo": "User Registration",
+        "placeholderNombre": "Name",
+        "placeholderCorreo": "Email",
+        "placeholderPass": "Password",
+        "boton": "Create Account",
+        "todosCampos": "Please fill in all fields.",
+        "nombreValido": "a valid name",
+        "correoValido": "a valid email",
+        "passValida": "a valid password",
+        "introduce": "Please enter",
+        "usuarioExiste": "User already exists or an error occurred.",
+        "errorGeneral": "Error while registering user.",
+        "validacionPass": "Password must be at least 8 characters and include an uppercase, lowercase, number and symbol."
+    },
+    "card": {
+        "sinImagen": "No image available",
+        "ciudad": "City",
+        "autonomia": "Range"
+    },
+    "carDetail": {
+        "sinImagen": "No image available",
+        "kilometraje": "Mileage",
+        "caracteristicas": "Features",
+        "botonReservar": "Reserve vehicle",
+        "reseñasDestacadas": "Highlighted reviews",
+        "verTodas": "View all reviews",
+        "ocultarTodas": "Hide all reviews",
+        "tituloTodasReseñas": "All user reviews",
+        "confirmarReserva": "Confirm reservation",
+        "mensajeReserva": "Would you like to proceed with the payment to reserve the {{marca}} {{modelo}}?",
+        "cancelar": "Cancel",
+        "pagarAhora": "Pay now",
+        "alertaConfirmacion": "Reservation confirmed 🚗✅",
+        "reseña1": "Very good car, clean and comfortable. I would use it again.",
+        "reseña2": "Perfect for getting around the city, excellent range.",
+        "reseña3": "Comfortable, efficient, and clean. Everything perfect!",
+        "reseña4": "I liked it a lot, although the GPS was a bit slow to update.",
+        "reseña5": "Great experience, very easy to book and use.",
+        "reseña6": "All good, but the car had low battery at the start.",
+        "reseña7": "Comfortable for short trips. I’ll use it again.",
+        "reseña8": "Highly recommended, spotless and efficient.",
+        "reseña9": "Good experience, although the air conditioning didn’t work well."
+    },
+    "perfil": {
+        "titulo": "Edit Profile",
+        "cambiarFoto": "Change photo",
+        "nombre": "First Name",
+        "apellidos": "Last Name",
+        "correo": "Email",
+        "telefono": "Phone",
+        "placeholderNombre": "First Name",
+        "placeholderApellidos": "Last Name",
+        "placeholderCorreo": "Email",
+        "placeholderTelefono": "Phone",
+        "botonGuardar": "Save changes",
+        "errorNombre": "Invalid name",
+        "errorCorreo": "Invalid email",
+        "errorFecha": "Invalid birthdate",
+        "errorDNI": "Invalid ID"
+    },
+    "userPanel": {
+        "titulo": "User Panel",
+        "misReservas": "My Bookings",
+        "cambiarPass": "Change Password",
+        "verificacion": "User Verification",
+        "historial": "Travel History",
+        "cerrarSesion": "Log Out",
+        "email": "Email",
+        "nacimiento": "Birthdate",
+        "dni": "ID"
+    },
+    "volver": {
+        "boton": "Back"
+    },
+    "popup": {
+        "configuracion": "Settings",
+        "cerrarSesion": "Log out"
+    },
+    "footer": {
+        "cliente": "Customer Service",
+        "devoluciones": "Returns and Warranty",
+        "pagos": "Payments",
+        "condiciones": "Terms of Service",
+        "privacidad": "Privacy Policy",
+        "info": "Corporate Information",
+        "sobreNosotros": "About Us",
+        "marcas": "Brands",
+        "afiliados": "Affiliates",
+        "inversores": "Investors",
+        "recursos": "Resources",
+        "blog": "Blog",
+        "faqs": "FAQs",
+        "soporte": "Technical Support",
+        "foro": "Forum",
+        "contactoDirecto": "Direct Contact",
+        "contactar": "Contact",
+        "siguiente": "Next",
+        "anterior": "Back",
+        "paso1": "Step 1",
+        "deseasContacto": "Would you like us to contact you?",
+        "placeholderEmail": "Your email address",
+        "gracias": "Thank you for your interest!",
+        "enviado": "The request has been successfully sent"
+    },
+    "cookies": {
+        "titulo": "Cookie Policy",
+        "intro": "This website uses its own and third-party cookies to enhance your browsing experience, gather statistical data about site usage, and personalize content.",
+        "queSon": "What are cookies?",
+        "queSonTexto": "Cookies are small text files stored on your device when you visit a website. Their main purpose is to recognize the user and improve the site's usability.",
+        "tipos": "Types of cookies used",
+        "tipoTecnicas": "Technical cookies: Necessary for the website to function.",
+        "tipoAnalisis": "Analytics cookies: Allow us to understand how users interact with the website.",
+        "tipoPersonalizacion": "Personalization cookies: Customize content according to your preferences.",
+        "comoDesactivar": "How can I disable them?",
+        "comoDesactivarTexto": "You can configure your browser to accept or reject all cookies by default or to notify you each time a cookie is received. Check your browser's help section to learn how to do this.",
+        "consentimiento": "Consent",
+        "consentimientoTexto": "By continuing to browse this website, you agree to the use of cookies in accordance with this policy. If you do not agree, you may disable them as instructed above.",
+        "ultimaActualizacion": "Last updated: May 2025"
+    },
+    "pass": {
+        "titulo": "Change password",
+        "instruccionEmail": "Enter your email. We’ll send you a link to reset your password.",
+        "correoPlaceholder": "Your email",
+        "enviarCodigo": "Send code",
+        "procesando": "Processing... this may take a few minutes.",
+        "instruccionesNueva": "Enter your new password.",
+        "nuevaPlaceholder": "New password",
+        "confirmarPlaceholder": "Confirm password",
+        "cambiarBoton": "Change password",
+        "toast": {
+            "emailEnviado": "Email sent successfully.\nCheck your inbox",
+            "errorCoincidencia": "Passwords do not match.",
+            "cambioOk": "Password updated successfully."
+        }
+    }
+}

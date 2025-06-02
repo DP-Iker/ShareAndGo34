@@ -1,0 +1,249 @@
+{
+  "home": {
+    "whyUseTitle": "¿Por qué usar Share&Go 34?",
+    "whyUseDescription": "Nuestra plataforma de car sharing te conecta con los mejores vehículos disponibles en tu ciudad de forma rápida y sostenible.",
+    "whyUseBenefits": {
+      "eco": "Accede a coches eléctricos y ecológicos",
+      "map": "Reserva inmediata desde el mapa",
+      "filters": "Filtros inteligentes para encontrar el coche ideal",
+      "fast": "Sin papeleos ni esperas"
+    },
+    "newsTitle": "Noticias sobre Car Sharing",
+    "mapButton": "Ver en el mapa",
+    "mapImageAlt": "Mapa de ubicación",
+    "promoImageAlt": "Vehículo promocional"
+  },
+  "navbar": {
+    "catalog": "Catálogo",
+    "map": "Mapa",
+    "login": "Iniciar sesión"
+  },
+  "search": {
+  "title": "Encuentra tu próximo coche",
+  "useCurrentLocation": "Usar mi ubicación",
+  "types": {
+    "turismos": "Turismos",
+    "suv": "SUV",
+    "monovolumen": "Monovolumen",
+    "microcoche": "Microcoche"
+  },
+  "placeholder": "Buscar ubicación...",
+  "button": "Buscar",
+  "errors": {
+    "geolocationNotSupported": "La geolocalización no es compatible con tu navegador.",
+    "locationPermissionDenied": "Permiso de ubicación denegado. Activa la localización para usar esta función."
+  }
+},
+  "legend": {
+    "title": "Leyenda del Mapa",
+    "vehicle": "Vehículo disponible",
+    "parking": "Zona de parking disponible",
+    "note": "Haz clic en los iconos del mapa para más detalles."
+  },
+  "map": {
+    "detectingLocation": "Detectando ubicación...",
+    "youAreHere": "Estás en:",
+    "showParkings": "Mostrar zonas de parking",
+    "legendVehicle": "Vehículo disponible",
+    "legendParking": "Zona de parking disponible",
+    "legendNote": "Haz clic en los iconos del mapa para más detalles.",
+    "vehicleState": "Estado",
+    "vehicleDetails": "Más detalles",
+    "parkingZone": "Zona de Aparcamiento",
+    "seeNearbyVehicles": "Ver vehículos cercanos",
+    "exampleAddress": "Dirección de ejemplo",
+    "lastRevision": "Última revisión",
+    "status": "Estado",
+    "moreDetails": "Más detalles",
+    "sampleAddress": "Dirección de ejemplo",
+    "viewNearby": "Ver vehículos cercanos"
+  },
+  "catalog": {
+    "categories": {
+      "title": "Categorías | Tipo de Coche",
+      "turismo": {
+        "label": "Turismo",
+        "desc": "Vehículos cómodos y eficientes ideales para carretera y ciudad."
+      },
+      "suv": {
+        "label": "SUV",
+        "desc": "Potencia y espacio, perfectos para aventuras y terrenos variados."
+      },
+      "monovolumen": {
+        "label": "Monovolumen",
+        "desc": "Gran capacidad interior para viajes en familia o con mucho equipaje."
+      },
+      "biplaza": {
+        "label": "Biplaza",
+        "desc": "Compactos, ágiles y perfectos para el tráfico urbano."
+      }
+    },
+    "filters": {
+      "brand": "Marca",
+      "model": "Modelo",
+      "type": "Tipo",
+      "status": "Estado",
+      "location": "Localidad",
+      "accessibility": "Accesibilidad",
+      "yes": "Sí",
+      "no": "No",
+      "search": "Buscar"
+    }
+  },
+  "pagination": {
+    "show": "Mostrar",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "page": "Página",
+    "of": "de"
+  },
+  "login": {
+    "cerrarModal": "Cerrar modal",
+    "titulo": "Iniciar Sesión",
+    "error": "El usuario o la contraseña son incorrectos",
+    "placeholderUsuario": "Usuario",
+    "placeholderContrasenya": "Contraseña",
+    "noCuenta": "¿No tienes una cuenta?",
+    "registrate": "Regístrate aquí",
+    "botonEntrar": "Entrar",
+    "camposObligatorios": "Por favor, completa todos los campos.",
+    "datosInvalidos": "Nombre de usuario o contraseña no válidos.",
+    "errorGenerico": "Ocurrió un error inesperado. Intenta de nuevo."
+  },
+  "registro": {
+    "titulo": "Registro de Usuario",
+    "placeholderNombre": "Nombre",
+    "placeholderCorreo": "Correo Electrónico",
+    "placeholderPass": "Contraseña",
+    "boton": "Crear Cuenta",
+    "todosCampos": "Por favor, rellena todos los campos.",
+    "nombreValido": "un nombre válido",
+    "correoValido": "un correo válido",
+    "passValida": "una contraseña válida",
+    "introduce": "Introduce",
+    "usuarioExiste": "El usuario ya existe o hubo un error.",
+    "errorGeneral": "Error al registrar el usuario.",
+    "validacionPass": "La contraseña debe tener al menos 8 caracteres, incluyendo una mayúscula, una minúscula, un número y un símbolo."
+  },
+  "card": {
+    "sinImagen": "Sin imagen",
+    "ciudad": "Ciudad",
+    "autonomia": "Autonomía"
+  },
+  "carDetail": {
+    "sinImagen": "Sin imagen",
+    "kilometraje": "Kilometraje",
+    "caracteristicas": "Características",
+    "botonReservar": "Reservar vehículo",
+    "reseñasDestacadas": "Reseñas destacadas",
+    "verTodas": "Ver todas las reseñas",
+    "ocultarTodas": "Ocultar todas las reseñas",
+    "tituloTodasReseñas": "Todas las reseñas de usuarios",
+    "confirmarReserva": "Confirmar reserva",
+    "mensajeReserva": "¿Deseas proceder con el pago para reservar el {{marca}} {{modelo}}?",
+    "cancelar": "Cancelar",
+    "pagarAhora": "Pagar ahora",
+    "alertaConfirmacion": "Reserva confirmada 🚗✅",
+    "reseña1": "Muy buen coche, limpio y cómodo. Lo volvería a usar.",
+    "reseña2": "Perfecto para moverse por la ciudad, excelente autonomía.",
+    "reseña3": "Cómodo, eficiente y limpio. ¡Todo perfecto!",
+    "reseña4": "Me gustó mucho, aunque el GPS tardó un poco en actualizarse.",
+    "reseña5": "Experiencia excelente, muy fácil de reservar y usar.",
+    "reseña6": "Todo bien, pero el coche tenía poca batería al inicio.",
+    "reseña7": "Cómodo para trayectos cortos. Volveré a usarlo.",
+    "reseña8": "Muy recomendable, impecable y eficiente.",
+    "reseña9": "Buena experiencia, aunque el aire acondicionado no funcionaba bien."
+  },
+  "perfil": {
+    "titulo": "Editar Perfil",
+    "cambiarFoto": "Cambiar foto",
+    "nombre": "Nombre",
+    "apellidos": "Apellidos",
+    "correo": "Correo",
+    "telefono": "Teléfono",
+    "placeholderNombre": "Nombre",
+    "placeholderApellidos": "Apellidos",
+    "placeholderCorreo": "Correo",
+    "placeholderTelefono": "Teléfono",
+    "botonGuardar": "Guardar cambios",
+    "errorNombre": "Nombre inválido",
+    "errorCorreo": "Correo inválido",
+    "errorFecha": "Fecha de nacimiento inválida",
+    "errorDNI": "DNI inválido"
+  },
+  "userPanel": {
+    "titulo": "Panel de Usuario",
+    "misReservas": "Mis Reservas",
+    "cambiarPass": "Cambiar Contraseña",
+    "verificacion": "Verificación de Usuario",
+    "historial": "Historial de Viajes",
+    "cerrarSesion": "Cerrar Sesión",
+    "email": "Email",
+    "nacimiento": "Nacimiento",
+    "dni": "DNI"
+  },
+  "volver": {
+    "boton": "Volver"
+  },
+  "popup": {
+    "configuracion": "Configuración",
+    "cerrarSesion": "Cerrar sesión"
+  },
+  "footer": {
+    "cliente": "Atención al cliente",
+    "devoluciones": "Devoluciones y garantía",
+    "pagos": "Pagos",
+    "condiciones": "Condiciones de servicio",
+    "privacidad": "Política de privacidad",
+    "info": "Información corporativa",
+    "sobreNosotros": "Sobre nosotros",
+    "marcas": "Marcas",
+    "afiliados": "Afiliados",
+    "inversores": "Inversores",
+    "recursos": "Recursos",
+    "blog": "Blog",
+    "faqs": "FAQs",
+    "soporte": "Soporte Técnico",
+    "foro": "Foro",
+    "contactoDirecto": "Contacto directo",
+    "contactar": "Contactar",
+    "siguiente": "Siguiente",
+    "anterior": "Anterior",
+    "paso1": "Paso 1",
+    "deseasContacto": "¿Quieres que te contactemos?",
+    "placeholderEmail": "Tu correo electrónico",
+    "gracias": "¡Gracias por tu interés!",
+    "enviado": "La solicitud se ha mandado correctamente"
+  },
+  "cookies": {
+    "titulo": "Política de Cookies",
+    "intro": "Esta página web utiliza cookies propias y de terceros para mejorar tu experiencia de navegación, recopilar información estadística sobre el uso del sitio y personalizar contenidos.",
+    "queSon": "¿Qué son las cookies?",
+    "queSonTexto": "Las cookies son pequeños archivos de texto que se almacenan en tu dispositivo al visitar un sitio web. Su función principal es reconocer al usuario y mejorar la usabilidad del sitio.",
+    "tipos": "Tipos de cookies utilizadas",
+    "tipoTecnicas": "Cookies técnicas: Necesarias para el funcionamiento del sitio web.",
+    "tipoAnalisis": "Cookies de análisis: Nos permiten conocer cómo interactúan los usuarios con la web.",
+    "tipoPersonalizacion": "Cookies de personalización: Adaptan el contenido a tus preferencias.",
+    "comoDesactivar": "¿Cómo puedo desactivarlas?",
+    "comoDesactivarTexto": "Puedes configurar tu navegador para aceptar o rechazar todas las cookies por defecto o para recibir un aviso en pantalla cada vez que se reciba una cookie. Consulta la ayuda de tu navegador para saber cómo hacerlo.",
+    "consentimiento": "Consentimiento",
+    "consentimientoTexto": "Al continuar navegando por esta web, aceptas el uso de cookies conforme a esta política. Si no estás de acuerdo, puedes desactivarlas siguiendo las instrucciones anteriores.",
+    "ultimaActualizacion": "Última actualización: mayo 2025"
+  },
+  "pass": {
+    "titulo": "Cambiar contraseña",
+    "instruccionEmail": "Ingresa tu correo electrónico. Te enviaremos un link para cambiar su contraseña.",
+    "correoPlaceholder": "Tu correo",
+    "enviarCodigo": "Enviar código",
+    "procesando": "Procesando... este proceso puede tardar unos minutos.",
+    "instruccionesNueva": "Ingresa tu nueva contraseña.",
+    "nuevaPlaceholder": "Nueva contraseña",
+    "confirmarPlaceholder": "Confirmar contraseña",
+    "cambiarBoton": "Cambiar contraseña",
+    "toast": {
+      "emailEnviado": "Email enviado con éxito.\nVerifica tu correo",
+      "errorCoincidencia": "Las contraseñas no coinciden.",
+      "cambioOk": "Contraseña actualizada correctamente."
+    }
+  }
+}

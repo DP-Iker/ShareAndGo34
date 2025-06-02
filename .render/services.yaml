@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: spring-backend
+    env: docker
+    repo: https://github.com/tu-usuario/mi-repo
+    dockerfilePath: backend/Dockerfile
+    buildCommand: ""
+    startCommand: ""
+    plan: free
+    envVars:
+      - key: SPRING_PROFILES_ACTIVE
+        value: prod
+    autoDeploy: true
+
+  - type: web
+    name: react-frontend
+    env: docker
+    repo: https://github.com/tu-usuario/mi-repo
+    dockerfilePath: frontend/Dockerfile
+    buildCommand: ""
+    startCommand: ""
+    plan: free
+    autoDeploy: true
